@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Frontend Development Wikipedia</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Frontend Development Wikipedia</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html#home">Home</a></li>
+				<li><a href="html.html">HTML</a></li>
+				<li><a href="css.html">CSS</a></li>
+				<li><a href="js.html">JavaScript</a></li>
+				<li><a href="bootstrap.html">Bootstrap</a></li>
+			</ul>
+		</nav>
+		<main>
+			<section id="home">
+				<h2>Welcome to Frontend Development Wikipedia</h2>
+				<p>
+					This is a collaborative resource for frontend developers to
+					share knowledge and learn about HTML, CSS, and JavaScript.
+				</p>
+			</section>
+			<section id="html">
+				<h2>HTML</h2>
+				<p>
+					HTML stands for HyperText Markup Language and is the
+					standard markup language for creating web pages.
+				</p>
+			</section>
+			<section id="css">
+				<h2>CSS</h2>
+				<p>
+					CSS stands for Cascading Style Sheets and is used to style
+					the presentation of web pages.
+				</p>
+			</section>
+			<section id="js">
+				<h2>JavaScript</h2>
+				<p>
+					JavaScript is a programming language that allows you to add
+					interactivity and dynamic content to web pages.
+				</p>
+			</section>
+			<section id="bootstrap">
+				<!-- New Bootstrap section -->
+				<h2>Bootstrap</h2>
+				<p>
+					Bootstrap is a popular front-end framework that simplifies
+					the process of building responsive and visually appealing
+					websites.
+				</p>
+				<p>
+					It provides a collection of CSS and JavaScript components
+					that you can easily integrate into your projects.
+				</p>
+				<p>
+					With Bootstrap, you can create responsive navigation bars,
+					grids, forms, modals, and more, without needing to write
+					extensive custom CSS.
+				</p>
+			</section>
+		</main>
+		<footer>
+			<p>&copy; 2023 Frontend Development Wikipedia</p>
+		</footer>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
