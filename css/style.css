@@ -1,3 +1,249 @@
+/* Common styles for all screen sizes */
+
+@media (max-width: 1200px) {
+	body {
+		font-size: 16px;
+	}
+	header {
+		padding: 8px;
+	}
+	.sidebar {
+		flex: 0 0 200px;
+	}
+	.main-content {
+		padding: 30px;
+	}
+}
+
+@media (max-width: 992px) {
+	body {
+		font-size: 14px;
+	}
+	header {
+		padding: 5px;
+	}
+	.sidebar {
+		flex: 0 0 180px;
+	}
+	.main-content {
+		padding: 25px;
+	}
+}
+
+@media (max-width: 768px) {
+	body {
+		font-size: 12px;
+	}
+	header {
+		padding: 3px;
+	}
+	.sidebar {
+		display: none;
+	}
+	.main-content {
+		padding: 20px;
+	}
+}
+
+@media (max-width: 576px) {
+	body {
+		font-size: 10px;
+	}
+	header {
+		padding: 0;
+	}
+	.main-content {
+		padding: 15px;
+	}
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+.header-link {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+	transition: color 0.3s;
+}
+
+.header-link:hover {
+	color: #737373;
+	text-decoration: none;
+}
+
+nav {
+	background-color: #444;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #737373;
+}
+
+main {
+	text-align: center;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	padding-top: 25px;
+	text-align: center;
+}
+
+.card {
+	width: 250px;
+	margin: 20px auto;
+	border: 1px solid #444444;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.card .btn {
+	background-color: #444444;
+	color: #ffffff;
+	border: none;
+	transition: background-color 0.3s;
+}
+
+.card .btn:hover {
+	background-color: #737373;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.sidebar {
+	background-color: #737373;
+	padding: 20px;
+	flex: 0 0 250px;
+}
+
+.sidebar-content {
+	padding: 25px;
+}
+
+.sidebar-content ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.sidebar a {
+	color: #fff;
+	text-decoration: none;
+	transition: color 0.3s;
+}
+
+.sidebar a:hover {
+	color: #444444;
+	text-decoration: none;
+}
+
+.main-content {
+	background-color: #dcecfa;
+	padding: 20px;
+	text-align: center;
+	flex: 1;
+}
+/* Common styles for all screen sizes */
+
+@media (max-width: 1200px) {
+	body {
+		font-size: 16px;
+	}
+	header {
+		padding: 8px;
+	}
+	.sidebar {
+		flex: 0 0 200px;
+	}
+	.main-content {
+		padding: 30px;
+	}
+}
+
+@media (max-width: 992px) {
+	body {
+		font-size: 14px;
+	}
+	header {
+		padding: 5px;
+	}
+	.sidebar {
+		flex: 0 0 180px;
+	}
+	.main-content {
+		padding: 25px;
+	}
+}
+
+@media (max-width: 768px) {
+	body {
+		font-size: 12px;
+	}
+	header {
+		padding: 3px;
+	}
+	.sidebar {
+		display: none;
+	}
+	.main-content {
+		padding: 20px;
+	}
+}
+
+@media (max-width: 576px) {
+	body {
+		font-size: 10px;
+	}
+	header {
+		padding: 0;
+	}
+	.main-content {
+		padding: 15px;
+	}
+}
+
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
@@ -33,7 +279,6 @@ nav a {
 	color: #fff;
 }
 
-/* Remove underline on all links on hover */
 nav a:hover {
 	text-decoration: none;
 	color: #737373;
@@ -55,72 +300,56 @@ footer {
 	text-align: center;
 }
 
-/* style.css */
-
-/* Styling for the entire card */
 .card {
 	width: 250px;
 	margin: 20px auto;
 	border: 1px solid #444444;
-	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Styling for the card title (h2) */
 .card-title {
-	font-size: 1.5rem; /* Adjust the font size as needed */
+	font-size: 1.5rem;
 	margin-bottom: 1rem;
 }
 
-/* Styling for the button */
 .card .btn {
 	background-color: #444444;
 	color: #ffffff;
 	border: none;
-	transition: background-color 0.3s; /* Add a smooth transition effect */
+	transition: background-color 0.3s;
 }
 
 .card .btn:hover {
-	background-color: #737373; /* Change this color for the hover effect */
+	background-color: #737373;
 }
 
-/* Adding border box to all elements */
 * {
 	box-sizing: border-box;
 }
 
-/* Your existing CSS styles go here */
-
-/* Additional CSS for layout */
-/* .container {
-	display: flex; 
-	align-items: stretch; 
-} */
-
 .sidebar {
 	background-color: #737373;
 	padding: 20px;
-	flex: 0 0 250px; /* Set a fixed width for the sidebar */
+	flex: 0 0 250px;
 }
 
-/* Sidebar content */
 .sidebar-content {
 	padding: 25px;
 }
 
 .sidebar-content ul {
 	list-style: none;
-	padding-left: 0; /* Remove default left padding */
+	padding-left: 0;
 }
 
-/* Sidebar links color */
 .sidebar a {
-	color: #fff; /* Change this color to your desired link color */
+	color: #fff;
 	text-decoration: none;
-	transition: color 0.3s; /* Add a smooth transition effect */
+	transition: color 0.3s;
 }
 
 .sidebar a:hover {
-	color: #444444; /* Change this color for the hover effect */
+	color: #444444;
 	text-decoration: none;
 }
 
@@ -128,5 +357,5 @@ footer {
 	background-color: #dcecfa;
 	padding: 20px;
 	text-align: center;
-	flex: 1; /* Let the main content flex to fill the remaining space */
+	flex: 1;
 }
